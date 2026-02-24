@@ -1,0 +1,450 @@
+(function (cjs, an) {
+
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [
+		{name:"top_kv_atlas_", frames: [[0,0,960,1365],[1317,707,155,376],[962,0,654,705],[0,1367,535,560],[962,707,353,482],[1028,1191,338,380],[537,1367,489,495]]}
+];
+
+
+// symbols:
+
+
+
+(lib.bg = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._catch = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.fig1 = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.fig2 = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.fig3 = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.fig4 = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.toplogo_bg = function() {
+	this.initialize(ss["top_kv_atlas_"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+// helper functions:
+
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+
+
+(lib.flower = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.toplogo_bg();
+	this.instance.parent = this;
+	this.instance.setTransform(-244.5,-247.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.flower, new cjs.Rectangle(-244.5,-247.5,489,495), null);
+
+
+(lib.fig4_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.fig4();
+	this.instance.parent = this;
+	this.instance.setTransform(-169,-190);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.fig4_1, new cjs.Rectangle(-169,-190,338,380), null);
+
+
+(lib.fig3_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.fig3();
+	this.instance.parent = this;
+	this.instance.setTransform(-176.5,-241);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.fig3_1, new cjs.Rectangle(-176.5,-241,353,482), null);
+
+
+(lib.fig2_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.fig2();
+	this.instance.parent = this;
+	this.instance.setTransform(-267.5,-280);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.fig2_1, new cjs.Rectangle(-267.5,-280,535,560), null);
+
+
+(lib.fig1_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.fig1();
+	this.instance.parent = this;
+	this.instance.setTransform(-327,-352.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.fig1_1, new cjs.Rectangle(-327,-352.5,654,705), null);
+
+
+(lib._catch_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib._catch();
+	this.instance.parent = this;
+	this.instance.setTransform(-77.5,-188);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib._catch_1, new cjs.Rectangle(-77.5,-188,155,376), null);
+
+
+(lib.bg_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// レイヤー_1
+	this.instance = new lib.bg();
+	this.instance.parent = this;
+	this.instance.setTransform(-480,-682.5);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.bg_1, new cjs.Rectangle(-480,-682.5,960,1365), null);
+
+
+// stage content:
+(lib.topkv = function(mode,startPosition,loop) {
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
+
+	// catch.png
+	this.instance = new lib._catch_1();
+	this.instance.parent = this;
+	this.instance.setTransform(100.5,360);
+	this.instance.alpha = 0;
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(167).to({_off:false},0).to({y:344,alpha:1},8).wait(13));
+
+	// fig4.png
+	this.instance_1 = new lib.fig4_1();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(169,772);
+	this.instance_1._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(121).to({_off:false},0).to({y:749},12).to({y:757},5).wait(50));
+
+	// fig3.png
+	this.instance_2 = new lib.fig3_1();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(783.5,690);
+	this.instance_2._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(134).to({_off:false},0).to({y:667},13).to({y:675},5).wait(36));
+
+	// fig2.png
+	this.instance_3 = new lib.fig2_1();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(408.5,399);
+	this.instance_3._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(146).to({_off:false},0).to({y:375},14).to({y:384},5).wait(23));
+
+	// fig1.png
+	this.instance_4 = new lib.fig1_1();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(488,1048.5);
+	this.instance_4._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(26).to({_off:false},0).to({y:989.5},14,cjs.Ease.quadOut).to({y:1012.5},9).wait(139));
+
+	// レイヤー_1 コピー 4
+	this.instance_5 = new lib.flower();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(138.65,785.55,0.1505,0.1505);
+	this.instance_5._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(130).to({_off:false},0).to({regX:0.2,regY:0.4,scaleX:0.253,scaleY:0.253,x:44.2,y:762.95,alpha:0},31,cjs.Ease.quadOut).wait(27));
+
+	// レイヤー_1 コピー 3
+	this.instance_6 = new lib.flower();
+	this.instance_6.parent = this;
+	this.instance_6.setTransform(298.65,659.45,0.1004,0.1004);
+	this.instance_6._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(116).to({_off:false},0).to({regX:0.2,regY:0.5,scaleX:0.2037,scaleY:0.2037,x:233.65,y:501.6,alpha:0},28,cjs.Ease.quadOut).wait(44));
+
+	// レイヤー_1 コピー 2
+	this.instance_7 = new lib.flower();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(432.55,580.55,0.1088,0.1088);
+	this.instance_7._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(130).to({_off:false},0).to({scaleX:0.3673,scaleY:0.3673,x:460.5,y:406.6,alpha:0},27,cjs.Ease.quadOut).wait(31));
+
+	// レイヤー_1 コピー
+	this.instance_8 = new lib.flower();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(822.45,812.4,0.1415,0.1415,29.9993);
+	this.instance_8._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(141).to({_off:false},0).to({regX:0.2,regY:0.1,scaleX:0.3833,scaleY:0.3833,rotation:29.9961,x:930.45,y:696.55,alpha:0},24,cjs.Ease.quadOut).wait(23));
+
+	// レイヤー_1
+	this.instance_9 = new lib.flower();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(600.45,618.5,0.2164,0.2164,45);
+	this.instance_9._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(121).to({_off:false},0).to({regX:0.5,scaleX:0.2881,scaleY:0.2881,x:688.45,y:466.6,alpha:0},27,cjs.Ease.quadOut).wait(40));
+
+	// bg
+	this.instance_10 = new lib.bg_1();
+	this.instance_10.parent = this;
+	this.instance_10.setTransform(480,682.5);
+	this.instance_10.alpha = 0;
+	this.instance_10._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(9).to({_off:false},0).to({alpha:1},14).wait(165));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,1059,1401);
+// library properties:
+lib.properties = {
+	id: '4C60978338334CDFA563D7DA42E2BD7C',
+	width: 960,
+	height: 1365,
+	fps: 24,
+	color: "#FFFFFF",
+	opacity: 0.00,
+	manifest: [
+		{src:"images/top_kv_atlas_.png", id:"top_kv_atlas_"}
+	],
+	preloads: []
+};
+
+
+
+// bootstrap callback support:
+
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+
+an.compositions = an.compositions || {};
+an.compositions['4C60978338334CDFA563D7DA42E2BD7C'] = {
+	getStage: function() { return exportRoot.getStage(); },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+
+
+
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
+
+
+
+
+
+
+
+
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function initAnimateion() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("4C60978338334CDFA563D7DA42E2BD7C");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.topkv();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	function makeResponsive(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+               //親要素基準でリサイズを行うように変更
+               var aw = anim_container.parentNode.clientWidth, ah=anim_container.parentNode.clientHeight;
+			var pRatio = window.devicePixelRatio || 1, xRatio=aw/w, yRatio=ah/h, sRatio=1;
+			if(isResp) {                
+				if((respDim=='width'&&lastW==aw) || (respDim=='height'&&lastH==ah)) {
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(aw<w || ah<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = aw; lastH = ah; lastS = sRatio;            
+			stage.tickOnUpdate = false;            
+			stage.update();            
+			stage.tickOnUpdate = true;	
+
+/*
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = dom_overlay_container.style.width = anim_container.style.width =  w*sRatio+'px';				
+			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;            
+			stage.tickOnUpdate = false;            
+			stage.update();            
+			stage.tickOnUpdate = true;	
+*/		
+		}
+	}
+	makeResponsive(true,'width',false,2);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+window.addEventListener("load", function () {
+initAnimateion();
+});
